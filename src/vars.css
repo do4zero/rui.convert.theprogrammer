@@ -1,0 +1,7 @@
+:root {
+    --dark-bg: #03090E;
+    --primary-color: #84EC8E;
+    --text-color: #ffffff;
+    --navbar-color: rgba(63, 66, 55, 0.2);
+    --navbar-link-color: rgba(255, 255, 255, 0.73);
+}

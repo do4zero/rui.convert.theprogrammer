@@ -1,0 +1,75 @@
+.navbar-bg {
+  background: var(--navbar-color);
+  backdrop-filter: blur(50px);
+  color: #ffffff;
+  padding: 16px 32px;
+  margin-top: 24px;
+}
+
+.brand,
+.brand:hover {
+  font-family: 'IBM Plex Mono';
+  color: var(--text-color);
+  margin-right: 40px;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 19px;
+  color: var(--navbar-link-color);
+  margin-left: 20px;
+  text-align: center;
+}
+.nav-link:hover {
+  color: var(--text-color);
+}
+
+.nav-link--active {
+  color: var(--text-color);
+}
+
+.btn-signup {
+  background: transparent;
+  border-radius: 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  text-transform: uppercase;
+  font-size: 14.5px;
+  line-height: 19px;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar-bg {
+    padding: 10px;
+  }
+
+  .brand {
+    font-size: 18px;
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-nav a {
+    text-align: left !important;
+    margin-left: 0px;
+    font-size: 0.78rem;
+  }
+
+  .btn-signup {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
+
+.navbar-nav a.active {
+  color: #fff !important;
+}
+
+.navbar-toggler-icon {
+  color: #fff !important;
+}
