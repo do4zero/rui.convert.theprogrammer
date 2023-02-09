@@ -20,8 +20,10 @@ const Home = () => {
   return (
     <>
       <Container fluid>
+        {/* Navbar Section */}
         <Navbar />
-        {/* Moto */}
+
+        {/* Connected Sectipn */}
         <section>
           <div className='getademo'>
             <div className='typecode-title'>
@@ -82,7 +84,7 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Finnaly Develop */}
+        {/* Finnaly Section */}
         <section class='green-circle'>
           <div className='products'>
             <div className='two-block'>
@@ -106,7 +108,7 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Finnaly Develop */}
+        {/* Optimized Section */}
         <section className='services'>
           <div className='box-wrapper'>
             <div className='service active'>
@@ -146,6 +148,7 @@ const Home = () => {
           </div>
         </section>
 
+        {/* Concentrate Section */}
         <section className='issues services distance'>
           <div className='issues-title typecode-title'>
             Concentrate on <span>{`{larger}`}</span> issues.
@@ -199,6 +202,7 @@ const Home = () => {
         </section>
       </Container>
 
+      {/* Circpe Provider Section */}
       <div style={{ minHeight: '100vh' }} className='distance'>
         <Container fluid>
           <section className='circle-provide pt-5'>
@@ -255,6 +259,7 @@ const Home = () => {
         </div>
       </div>
 
+      {/* Useful assist section */}
       <div className='usefulassist distance'>
         <Container fluid>
           <section
@@ -303,6 +308,7 @@ const Home = () => {
         </Container>
       </div>
 
+      {/* Join Section */}
       <Container fluid>
         <section className='distance'>
           <div className='join'>
@@ -329,6 +335,7 @@ const Home = () => {
         </section>
       </Container>
 
+      {/* Footer Section */}
       <div className='footer'>
         <Container fluid>
           <div className='footer-link'>
